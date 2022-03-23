@@ -1,0 +1,31 @@
+.copyright{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width:100%;
+    background-color: black;
+
+}
+
+
+
+.footer-page{
+    width:100%;
+}
+.footer-page p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+
+}
+.footer-page p a{
+    text-decoration: none;
+    color: red;
+}
+@media screen and (max-width:800px){
+    .footer-page p{
+        font-size: 12px;
+    }
+    
+}

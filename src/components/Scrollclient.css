@@ -1,0 +1,29 @@
+.scroll-bars{
+    margin-top: 50px;
+    padding:50px;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr 1fr 1fr 1fr);
+    flex-wrap: wrap;
+}
+
+.scroll-bars h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: blueviolet;
+}
+.company-logos img{
+    justify-content: center;
+    max-width: 150px;
+    max-height: 100px;
+}
+
+@media screen and (max-width:800px){
+    .scroll-bars h1{
+        font-size: 30px;
+        text-align: center;
+        padding-right: 55px;
+    }
+    
+}

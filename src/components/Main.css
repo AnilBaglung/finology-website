@@ -1,0 +1,61 @@
+.main-text{
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.main-text h1{
+    font-size: 55px;
+    font-weight: 600;
+    color:#21295b;
+}
+.main-text p{
+    font-size: 25px;
+    color:#21295b;
+}
+.scrollbutton{
+    text-align: right;
+    margin-right: 100px;
+    padding-top: 0px;
+}
+
+
+#scrollbtn{
+    font-size: 30px;
+    height: 55px;
+    width: 30px;
+    padding-right: 5px;
+    text-align: center;
+    padding-top: 15px;
+    border: 2px solid darkgray;
+    border-radius: 5px 5px 25px 25px;
+    color: darkgray;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.5s;
+}
+#scrollbtn:hover{
+    color: white;
+    background-color: blueviolet;
+    transform: rotateX(-30deg);
+}
+
+
+@media(max-width:1200px){
+     .main-text{
+         padding-top: 25%;
+     }
+ }  
+
+@media(max-width:770px){
+    .main-text{
+        padding-top: 30%;
+    }
+    .main-text h1{
+        font-size: 40px;
+    }
+    .main-text p{
+        font-size: 18px;
+    }
+    .scrollbutton{
+        margin-top: 50px;
+    }
+}
